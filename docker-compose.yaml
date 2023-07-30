@@ -5,7 +5,7 @@ services:
     # or build from the Dockerfile
     build: .
     ports:
-      - "9993:9993"
+      - "10003:10003"
     environment:
       ACCOUNT_USERNAME: "${ACCOUNT_USERNAME}"
       ACCOUNT_PASSWORD: "${ACCOUNT_PASSWORD}"
